@@ -36,9 +36,6 @@ aladin.on('objectClicked', (object) => {
 });
 
 
-var overlay = A.graphicOverlay({color: '#ee2345', lineWidth: 2});
-aladin.addOverlay(overlay);
-overlay.add(A.polyline([[2.29452158, 59.14978110], [10.12683778, 56.53733116], [14.1772154, 60.7167403], [21.45396446, 60.23528403], [28.59885697, 63.67010079]]));
 
 /*$.ready = function() {
     regionEditor = new RegionEditor_mVc("aladin-lite-div"
@@ -71,6 +68,9 @@ let calculateDayOfYear = (date)=>{
 
 
 $('#date-picker-button').click(function (){
+    aladin.removeLayers();
+    var overlay = A.graphicOverlay({color: '#ee2345', lineWidth: 2});
+    aladin.addOverlay(overlay);
     let dateString = $('#date-picker').val();
     let date = Date.parse(dateString);
 
@@ -83,14 +83,22 @@ $('#date-picker-button').click(function (){
     sunPos[0] = rightAscension(date);
     sunPos[1] = declination(date);
     aladin.gotoRaDec(sunPos[0], sunPos[1])
+    let pointA = [sunPos[0]-.1,sunPos[1]]
+    let pointB = [sunPos[0] - .1, sunPos[1] + .1]
+    let pointC = [sunPos[0] + .1 , sunPos[1]]
+    let pointD = [sunPos[0] + .1 , sunPos[1] + .1]
 
+    overlay.add(A.polyline([  pointA, pointB, pointD, pointC, pointA]));
     //var overlay = A.graphicOverlay({color: '#ee2345', lineWidth: 2});
     //aladin.addOverlay(overlay);
-    var moc = A.MOCFromURL('https://alasky.unistra.fr/MocServer/query?ivorn=ivo%3A%2F%2FCDS%2FV%2F139%2Fsdss9&get=moc&order=7&fmt=fits', {color: '#84f', lineWidth: 1});
-    aladin.addMOC(moc);
+    //var moc = A.MOCFromURL('https://alasky.unistra.fr/MocServer/query?ivorn=ivo%3A%2F%2FCDS%2FV%2F139%2Fsdss9&get=moc&order=7&fmt=fits', {color: '#84f', lineWidth: 1});
+    //aladin.addMOC(moc);
     /*let number = 0.001;
     overlay.addFootprints([A.polygon(sunPos, [sunPos[0] + number, sunPos[1] + number], [sunPos[0] + number, sunPos[1] - number], [sunPos[0] - number, sunPos[1] - number])]);
 */
+
+
+
 });
 
 

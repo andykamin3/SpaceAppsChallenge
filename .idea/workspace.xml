@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78427536-e12a-4397-84d0-168b6fe07620" name="Default Changelist" comment="" />
+    <list default="true" id="78427536-e12a-4397-84d0-168b6fe07620" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iNWM9i0p6TfrVO5GIvYBYc4ebg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +42,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601748479449</updated>
-      <workItem from="1601748482891" duration="14897000" />
+      <workItem from="1601748482891" duration="17313000" />
     </task>
     <servers />
   </component>
@@ -53,6 +61,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="616" y="307" key="Github.ShareDialog" timestamp="1601786506882">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="616" y="307" key="Github.ShareDialog/0.23.1440.877@0.23.1440.877" timestamp="1601786506882" />
+    <state x="502" y="115" key="Github.UntrackedFilesDialog" timestamp="1601786515082">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="502" y="115" key="Github.UntrackedFilesDialog/0.23.1440.877@0.23.1440.877" timestamp="1601786515082" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1601820281911">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601820281911" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601768423589">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
