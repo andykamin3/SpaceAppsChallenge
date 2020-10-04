@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78427536-e12a-4397-84d0-168b6fe07620" name="Default Changelist" comment="Demo modif">
+    <list default="true" id="78427536-e12a-4397-84d0-168b6fe07620" name="Default Changelist" comment="FIxing longitud de onda">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601748479449</updated>
-      <workItem from="1601748482891" duration="17577000" />
+      <workItem from="1601748482891" duration="17776000" />
     </task>
     <task id="LOCAL-00001" summary="Demo modif">
       <created>1601822822282</created>
@@ -61,7 +61,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601822822283</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixing">
+      <created>1601823264128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601823264128</updated>
+    </task>
+    <task id="LOCAL-00003" summary="FIxing longitud de onda">
+      <created>1601823372318</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601823372318</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,7 +83,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Demo modif" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demo modif" />
+    <MESSAGE value="Fixing" />
+    <MESSAGE value="FIxing longitud de onda" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIxing longitud de onda" />
   </component>
   <component name="WindowStateProjectService">
     <state x="616" y="307" key="Github.ShareDialog" timestamp="1601786506882">
@@ -84,6 +100,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601820281911" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601823375386">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601823375386" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601768423589">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
