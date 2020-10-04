@@ -1,0 +1,14 @@
+.aladin-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#aladin-lite-div{
+    width: 100%;
+    height: 60vh;
+}
+
+.brand-logo{
+    padding-left: 30px !important;
+}

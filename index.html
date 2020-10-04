@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AladinDemo</title>
+    <link rel='stylesheet' href='https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.css' />
+    <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.js' charset='utf-8'></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="http://saada.unistra.fr/jsresources/saadajsbasics/javascript/Segment.js"> </script>
+    <script src="http://saada.unistra.fr/jsresources/saadajsbasics/javascript/AstroCoo.js"> </script>
+    <script src="http://saada.unistra.fr/jsresources/saadajsbasics/javascript/RegionEditor_m.js"> </script>
+    <script src="http://saada.unistra.fr/jsresources/saadajsbasics/javascript/RegionEditor_v.js"> </script>
+    <script src="http://saada.unistra.fr/jsresources/saadajsbasics/javascript/RegionEditor_c.js"> </script>
+    <script src="node_modules/nouislider/distribute/nouislider.min.js"></script>
+    <link rel="stylesheet" href="node_modules/nouislider/distribute/nouislider.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="purple darken-3">
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Al Tensor</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Aplicación</a></li>
+            <li><a href="https://2020.spaceappschallenge.org/challenges/observe/hey-heasarc/teams/al-tensor/project" target="_blank">Sobre nosotros</a></li>
+        </ul>
+    </div>
+</nav>
+    <div class ="container">
+
+
+        <div id='aladin-lite-div' ></div>
+            <div class="row">
+                <div class="col m6" id="date-picker-section">
+                    <h6>Más Información</h6>
+                    <div class="row">
+                        <div class="col m8">
+                            <input type="text" class="datepicker" id="date-picker" >
+                        </div>
+                        <div class="col m4">
+                            <button class="btn waves-effect waves-light" name="action" id="date-picker-button">Enviar
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6" id="">
+                    <h6>Seleccionar Misión</h6>
+                    <p>
+                        <label>
+                            <input type="checkbox" />
+                            <span>NuSTAR</span>
+                        </label>
+                    </p><p>
+                    <label>
+                        <input type="checkbox" />
+                        <span>Swift</span>
+                    </label>
+                </p><p>
+                    <label>
+                        <input type="checkbox" />
+                        <span>Chandra</span>
+                    </label>
+                </p>
+                </div>
+            </div>
+        <div class="row">
+                <div class="col m6" id="spectral-type-display">
+                    <h6>Ingresar información</h6>
+                    <label>Longitud de Onda</label>
+                    <div id="test-slider"></div>
+                </div>
+            </div>
+
+    </div>
+
+
+    <script src="js/index.js"></script>
+    <script src="js/pickers.js"></script>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
